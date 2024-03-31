@@ -1,0 +1,32 @@
+.name {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nameRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.email {
+  color: var(--mantine-color-gray-6);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.25rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.dropdown {
+  padding: 1rem 0.75rem;
+  min-width: 12.5rem;
+}

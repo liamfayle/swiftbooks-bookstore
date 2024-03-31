@@ -1,0 +1,15 @@
+.indicator {
+  display: flex;
+}
+
+.modalInner {
+  justify-content: flex-end;
+}
+
+.header {
+  font-family: var(--mantine-font-family-headings);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

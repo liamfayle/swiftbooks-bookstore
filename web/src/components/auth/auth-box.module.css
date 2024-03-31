@@ -1,0 +1,47 @@
+.container {
+  width: 20rem;
+  max-width: 20rem;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.88rem;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.error {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--mantine-color-red-8);
+}
+
+.register {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.googleButton {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.googleButtonInner {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.94rem;
+}

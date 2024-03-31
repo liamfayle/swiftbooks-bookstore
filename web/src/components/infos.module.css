@@ -1,0 +1,56 @@
+.infoContainer {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+}
+
+.infoContainer.sm {
+  gap: 0.25rem;
+}
+
+.infoContainer.sm .infoRow {
+  gap: 0.125rem;
+}
+
+.infoRow {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.infoRow.double {
+  flex-direction: column;
+}
+
+.infoRow.double .value {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.infoColumn {
+  display: flex;
+  gap: 0.25rem;
+  flex-direction: column;
+}
+
+.label,
+.value {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 24rem;
+}
+
+.infoContainer.sm .label,
+.infoContainer.sm .value {
+  font-size: 0.75rem;
+}
+
+.label {
+  font-weight: 700;
+}
+
+.infoContainer.sm .label {
+  font-weight: 400;
+}

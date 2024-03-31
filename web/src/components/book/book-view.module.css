@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.description {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.descriptionContainer {
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.detailsRow {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  display: block;
+  width: 18.75rem;
+  height: 18.75rem;
+  object-fit: contain;
+  border: 0;
+}
+
+@media (min-width: $mantine-breakpoint-sm) {
+  .detailsRow {
+    flex-direction: row;
+  }
+
+  .image {
+    border: 1px solid var(--mantine-color-gray-2);
+  }
+}
+
+.detailsSections {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.author {
+  color: var(--mantine-color-gray-6);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.25rem;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

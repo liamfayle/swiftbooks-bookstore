@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  max-width: 32rem;
+  margin-bottom: 3.75rem;
+}
+
+.checkboxContainer {
+  background: var(--mantine-color-gray-1);
+  border-radius: var(--mantine-radius-default);
+  padding: 0.4375rem 0.875rem;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+
+.createRowContainer {
+  display: flex;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.createButtonContainer {
+  flex: 1;
+}
+
+.createButtonContainer button {
+  width: 100%;
+}
+
+.createButtonLabel {
+  padding-right: 4.19rem;
+}

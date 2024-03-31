@@ -1,0 +1,41 @@
+.image {
+  width: 5rem;
+  height: 5rem;
+  display: block;
+  border: 1px solid var(--mantine-color-gray-2);
+  object-fit: contain;
+}
+
+.author {
+  color: var(--mantine-color-gray-6);
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0.12rem;
+}
+
+.title {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 0.62rem;
+}
+
+.price {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container {
+  display: flex;
+  max-width: 16rem;
+  width: 16rem;
+}
+
+.details {
+  margin-left: 0.63rem;
+}

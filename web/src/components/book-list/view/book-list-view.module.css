@@ -1,0 +1,35 @@
+.creator {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.25rem;
+  margin-bottom: 1.25rem;
+  color: var(--mantine-color-gray-6);
+}
+
+.description {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.bookListContainer {
+  margin-bottom: 2.5rem;
+}
+
+.reviewContainer {
+  margin-bottom: 2.5rem;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}

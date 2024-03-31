@@ -1,0 +1,20 @@
+.header {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.88rem;
+}
+
+.submitContainer {
+  margin-top: 2.56rem;
+}
+
+.submitContainer button {
+  width: 100%;
+}

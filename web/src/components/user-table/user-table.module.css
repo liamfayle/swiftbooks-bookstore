@@ -1,0 +1,45 @@
+.table {
+  max-width: 42rem;
+}
+
+.header {
+  background: var(--mantine-color-gray-3);
+}
+
+.header tr {
+  border-bottom: 0;
+}
+
+.header th {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.body tr {
+  border-bottom: 0.0625rem solid var(--mantine-color-gray-4);
+}
+
+.body tr.disabled {
+  color: var(--mantine-color-gray-6);
+}
+
+.body td {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header th,
+.body td {
+  padding: 1rem 1.38rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

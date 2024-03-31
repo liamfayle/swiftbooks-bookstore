@@ -1,0 +1,28 @@
+.tabs {
+  margin-bottom: 2.5rem;
+  width: fit-content;
+}
+
+.list {
+  gap: 1.88rem;
+}
+
+.list::before {
+  border-bottom-width: 0;
+}
+
+.tab {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border-bottom-width: 0.1875rem;
+  border-radius: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.tab:hover {
+  background: transparent;
+}

@@ -1,0 +1,724 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book renders book catalog unchanged 1`] = `
+<div>
+  <style
+    data-mantine-styles="true"
+  >
+    :root{--mantine-font-family: fontFamily;--mantine-font-family-headings: fontFamily;--mantine-primary-color-filled: var(--mantine-color-teal-filled);--mantine-primary-color-filled-hover: var(--mantine-color-teal-filled-hover);--mantine-primary-color-light: var(--mantine-color-teal-light);--mantine-primary-color-light-hover: var(--mantine-color-teal-light-hover);--mantine-primary-color-light-color: var(--mantine-color-teal-light-color);}:root[data-mantine-color-scheme="dark"]{--mantine-color-anchor: #38d9a9;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(44, 46, 51, 0.15);--mantine-color-dark-light-hover: rgba(44, 46, 51, 0.2);--mantine-color-dark-light-color: #909296;--mantine-color-dark-outline: #5c5f66;--mantine-color-dark-outline-hover: rgba(92, 95, 102, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(173, 181, 189, 0.15);--mantine-color-gray-light-hover: rgba(173, 181, 189, 0.2);--mantine-color-gray-light-color: #e9ecef;--mantine-color-gray-outline: #dee2e6;--mantine-color-gray-outline-hover: rgba(222, 226, 230, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(255, 107, 107, 0.15);--mantine-color-red-light-hover: rgba(255, 107, 107, 0.2);--mantine-color-red-light-color: #ffc9c9;--mantine-color-red-outline: #ffa8a8;--mantine-color-red-outline-hover: rgba(255, 168, 168, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(240, 101, 149, 0.15);--mantine-color-pink-light-hover: rgba(240, 101, 149, 0.2);--mantine-color-pink-light-color: #fcc2d7;--mantine-color-pink-outline: #faa2c1;--mantine-color-pink-outline-hover: rgba(250, 162, 193, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(204, 93, 232, 0.15);--mantine-color-grape-light-hover: rgba(204, 93, 232, 0.2);--mantine-color-grape-light-color: #eebefa;--mantine-color-grape-outline: #e599f7;--mantine-color-grape-outline-hover: rgba(229, 153, 247, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(132, 94, 247, 0.15);--mantine-color-violet-light-hover: rgba(132, 94, 247, 0.2);--mantine-color-violet-light-color: #d0bfff;--mantine-color-violet-outline: #b197fc;--mantine-color-violet-outline-hover: rgba(177, 151, 252, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(92, 124, 250, 0.15);--mantine-color-indigo-light-hover: rgba(92, 124, 250, 0.2);--mantine-color-indigo-light-color: #bac8ff;--mantine-color-indigo-outline: #91a7ff;--mantine-color-indigo-outline-hover: rgba(145, 167, 255, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(51, 154, 240, 0.15);--mantine-color-blue-light-hover: rgba(51, 154, 240, 0.2);--mantine-color-blue-light-color: #a5d8ff;--mantine-color-blue-outline: #74c0fc;--mantine-color-blue-outline-hover: rgba(116, 192, 252, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(34, 184, 207, 0.15);--mantine-color-cyan-light-hover: rgba(34, 184, 207, 0.2);--mantine-color-cyan-light-color: #99e9f2;--mantine-color-cyan-outline: #66d9e8;--mantine-color-cyan-outline-hover: rgba(102, 217, 232, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(32, 201, 151, 0.15);--mantine-color-teal-light-hover: rgba(32, 201, 151, 0.2);--mantine-color-teal-light-color: #96f2d7;--mantine-color-teal-outline: #63e6be;--mantine-color-teal-outline-hover: rgba(99, 230, 190, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(81, 207, 102, 0.15);--mantine-color-green-light-hover: rgba(81, 207, 102, 0.2);--mantine-color-green-light-color: #b2f2bb;--mantine-color-green-outline: #8ce99a;--mantine-color-green-outline-hover: rgba(140, 233, 154, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(148, 216, 45, 0.15);--mantine-color-lime-light-hover: rgba(148, 216, 45, 0.2);--mantine-color-lime-light-color: #d8f5a2;--mantine-color-lime-outline: #c0eb75;--mantine-color-lime-outline-hover: rgba(192, 235, 117, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(252, 196, 25, 0.15);--mantine-color-yellow-light-hover: rgba(252, 196, 25, 0.2);--mantine-color-yellow-light-color: #ffec99;--mantine-color-yellow-outline: #ffe066;--mantine-color-yellow-outline-hover: rgba(255, 224, 102, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(255, 146, 43, 0.15);--mantine-color-orange-light-hover: rgba(255, 146, 43, 0.2);--mantine-color-orange-light-color: #ffd8a8;--mantine-color-orange-outline: #ffc078;--mantine-color-orange-outline-hover: rgba(255, 192, 120, 0.05);}:root[data-mantine-color-scheme="light"]{--mantine-color-anchor: #0ca678;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(26, 27, 30, 0.1);--mantine-color-dark-light-hover: rgba(26, 27, 30, 0.12);--mantine-color-dark-light-color: #1A1B1E;--mantine-color-dark-outline: #1A1B1E;--mantine-color-dark-outline-hover: rgba(26, 27, 30, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(73, 80, 87, 0.1);--mantine-color-gray-light-hover: rgba(73, 80, 87, 0.12);--mantine-color-gray-light-color: #495057;--mantine-color-gray-outline: #495057;--mantine-color-gray-outline-hover: rgba(73, 80, 87, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(240, 62, 62, 0.1);--mantine-color-red-light-hover: rgba(240, 62, 62, 0.12);--mantine-color-red-light-color: #f03e3e;--mantine-color-red-outline: #f03e3e;--mantine-color-red-outline-hover: rgba(240, 62, 62, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(214, 51, 108, 0.1);--mantine-color-pink-light-hover: rgba(214, 51, 108, 0.12);--mantine-color-pink-light-color: #d6336c;--mantine-color-pink-outline: #d6336c;--mantine-color-pink-outline-hover: rgba(214, 51, 108, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(174, 62, 201, 0.1);--mantine-color-grape-light-hover: rgba(174, 62, 201, 0.12);--mantine-color-grape-light-color: #ae3ec9;--mantine-color-grape-outline: #ae3ec9;--mantine-color-grape-outline-hover: rgba(174, 62, 201, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(112, 72, 232, 0.1);--mantine-color-violet-light-hover: rgba(112, 72, 232, 0.12);--mantine-color-violet-light-color: #7048e8;--mantine-color-violet-outline: #7048e8;--mantine-color-violet-outline-hover: rgba(112, 72, 232, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(66, 99, 235, 0.1);--mantine-color-indigo-light-hover: rgba(66, 99, 235, 0.12);--mantine-color-indigo-light-color: #4263eb;--mantine-color-indigo-outline: #4263eb;--mantine-color-indigo-outline-hover: rgba(66, 99, 235, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(28, 126, 214, 0.1);--mantine-color-blue-light-hover: rgba(28, 126, 214, 0.12);--mantine-color-blue-light-color: #1c7ed6;--mantine-color-blue-outline: #1c7ed6;--mantine-color-blue-outline-hover: rgba(28, 126, 214, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(16, 152, 173, 0.1);--mantine-color-cyan-light-hover: rgba(16, 152, 173, 0.12);--mantine-color-cyan-light-color: #1098ad;--mantine-color-cyan-outline: #1098ad;--mantine-color-cyan-outline-hover: rgba(16, 152, 173, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(12, 166, 120, 0.1);--mantine-color-teal-light-hover: rgba(12, 166, 120, 0.12);--mantine-color-teal-light-color: #0ca678;--mantine-color-teal-outline: #0ca678;--mantine-color-teal-outline-hover: rgba(12, 166, 120, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(55, 178, 77, 0.1);--mantine-color-green-light-hover: rgba(55, 178, 77, 0.12);--mantine-color-green-light-color: #37b24d;--mantine-color-green-outline: #37b24d;--mantine-color-green-outline-hover: rgba(55, 178, 77, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(116, 184, 22, 0.1);--mantine-color-lime-light-hover: rgba(116, 184, 22, 0.12);--mantine-color-lime-light-color: #74b816;--mantine-color-lime-outline: #74b816;--mantine-color-lime-outline-hover: rgba(116, 184, 22, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(245, 159, 0, 0.1);--mantine-color-yellow-light-hover: rgba(245, 159, 0, 0.12);--mantine-color-yellow-light-color: #f59f00;--mantine-color-yellow-outline: #f59f00;--mantine-color-yellow-outline-hover: rgba(245, 159, 0, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(247, 103, 7, 0.1);--mantine-color-orange-light-hover: rgba(247, 103, 7, 0.12);--mantine-color-orange-light-color: #f76707;--mantine-color-orange-outline: #f76707;--mantine-color-orange-outline-hover: rgba(247, 103, 7, 0.05);}
+  </style>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="list"
+  >
+    <div
+      class="container"
+    >
+      <a
+        class="mantine-focus-auto m-849cf0da m-b6d8b162 mantine-Text-root mantine-Anchor-root"
+        data-underline="hover"
+        href="/books/view/abc"
+      >
+        <img
+          alt="Book cover 1"
+          class="image"
+          height="150"
+          src="https://example.com/book-1"
+          width="150"
+        />
+      </a>
+      <div
+        class="details"
+      >
+        <div
+          class="author"
+        >
+          Bob
+        </div>
+        <a
+          class="mantine-focus-auto m-849cf0da m-b6d8b162 mantine-Text-root mantine-Anchor-root"
+          data-underline="hover"
+          href="/books/view/abc"
+        >
+          <h4
+            class="title m-8a5d1357 mantine-Title-root"
+            data-order="4"
+            style="--title-fw: var(--mantine-h4-font-weight); --title-lh: var(--mantine-h4-line-height); --title-fz: var(--mantine-h4-font-size);"
+          >
+            Best fiction book
+          </h4>
+        </a>
+        <div
+          class="price"
+        >
+          US$19.99
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active button m-77c9d27d mantine-Button-root m-87cf2631 mantine-UnstyledButton-root"
+          data-size="xs"
+          data-variant="light"
+          style="--button-height: var(--button-height-xs); --button-padding-x: var(--button-padding-x-xs); --button-fz: var(--mantine-font-size-xs); --button-bg: var(--mantine-color-violet-light); --button-hover: var(--mantine-color-violet-light-hover); --button-color: var(--mantine-color-violet-light-color); --button-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;"
+          type="button"
+        >
+          <span
+            class="m-80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m-811560b9 mantine-Button-label"
+            >
+              ADD TO CART
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <a
+        class="mantine-focus-auto m-849cf0da m-b6d8b162 mantine-Text-root mantine-Anchor-root"
+        data-underline="hover"
+        href="/books/view/def"
+      >
+        <img
+          alt="Book cover 1"
+          class="image"
+          height="150"
+          src="https://example.com/book-1"
+          width="150"
+        />
+      </a>
+      <div
+        class="details"
+      >
+        <div
+          class="author"
+        >
+          Alice
+        </div>
+        <a
+          class="mantine-focus-auto m-849cf0da m-b6d8b162 mantine-Text-root mantine-Anchor-root"
+          data-underline="hover"
+          href="/books/view/def"
+        >
+          <h4
+            class="title m-8a5d1357 mantine-Title-root"
+            data-order="4"
+            style="--title-fw: var(--mantine-h4-font-weight); --title-lh: var(--mantine-h4-line-height); --title-fz: var(--mantine-h4-font-size);"
+          >
+            Second best fiction book
+          </h4>
+        </a>
+        <div
+          class="price"
+        >
+          US$29.99
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active button m-77c9d27d mantine-Button-root m-87cf2631 mantine-UnstyledButton-root"
+          data-size="xs"
+          data-variant="light"
+          style="--button-height: var(--button-height-xs); --button-padding-x: var(--button-padding-x-xs); --button-fz: var(--mantine-font-size-xs); --button-bg: var(--mantine-color-violet-light); --button-hover: var(--mantine-color-violet-light-hover); --button-color: var(--mantine-color-violet-light-color); --button-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;"
+          type="button"
+        >
+          <span
+            class="m-80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m-811560b9 mantine-Button-label"
+            >
+              ADD TO CART
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <a
+        class="mantine-focus-auto m-849cf0da m-b6d8b162 mantine-Text-root mantine-Anchor-root"
+        data-underline="hover"
+        href="/books/view/ghi"
+      >
+        <img
+          alt="Book cover 1"
+          class="image"
+          height="150"
+          src="https://example.com/book-1"
+          width="150"
+        />
+      </a>
+      <div
+        class="details"
+      >
+        <div
+          class="author"
+        >
+          Jimmy
+        </div>
+        <a
+          class="mantine-focus-auto m-849cf0da m-b6d8b162 mantine-Text-root mantine-Anchor-root"
+          data-underline="hover"
+          href="/books/view/ghi"
+        >
+          <h4
+            class="title m-8a5d1357 mantine-Title-root"
+            data-order="4"
+            style="--title-fw: var(--mantine-h4-font-weight); --title-lh: var(--mantine-h4-line-height); --title-fz: var(--mantine-h4-font-size);"
+          >
+            Third best fiction book
+          </h4>
+        </a>
+        <div
+          class="price"
+        >
+          US$39.99
+        </div>
+        <button
+          class="mantine-focus-auto mantine-active button m-77c9d27d mantine-Button-root m-87cf2631 mantine-UnstyledButton-root"
+          data-size="xs"
+          data-variant="light"
+          style="--button-height: var(--button-height-xs); --button-padding-x: var(--button-padding-x-xs); --button-fz: var(--mantine-font-size-xs); --button-bg: var(--mantine-color-violet-light); --button-hover: var(--mantine-color-violet-light-hover); --button-color: var(--mantine-color-violet-light-color); --button-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;"
+          type="button"
+        >
+          <span
+            class="m-80f1301b mantine-Button-inner"
+          >
+            <span
+              class="m-811560b9 mantine-Button-label"
+            >
+              ADD TO CART
+            </span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Book renders book filter unchanged 1`] = `
+<div>
+  <style
+    data-mantine-styles="true"
+  >
+    :root{--mantine-font-family: fontFamily;--mantine-font-family-headings: fontFamily;--mantine-primary-color-filled: var(--mantine-color-teal-filled);--mantine-primary-color-filled-hover: var(--mantine-color-teal-filled-hover);--mantine-primary-color-light: var(--mantine-color-teal-light);--mantine-primary-color-light-hover: var(--mantine-color-teal-light-hover);--mantine-primary-color-light-color: var(--mantine-color-teal-light-color);}:root[data-mantine-color-scheme="dark"]{--mantine-color-anchor: #38d9a9;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(44, 46, 51, 0.15);--mantine-color-dark-light-hover: rgba(44, 46, 51, 0.2);--mantine-color-dark-light-color: #909296;--mantine-color-dark-outline: #5c5f66;--mantine-color-dark-outline-hover: rgba(92, 95, 102, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(173, 181, 189, 0.15);--mantine-color-gray-light-hover: rgba(173, 181, 189, 0.2);--mantine-color-gray-light-color: #e9ecef;--mantine-color-gray-outline: #dee2e6;--mantine-color-gray-outline-hover: rgba(222, 226, 230, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(255, 107, 107, 0.15);--mantine-color-red-light-hover: rgba(255, 107, 107, 0.2);--mantine-color-red-light-color: #ffc9c9;--mantine-color-red-outline: #ffa8a8;--mantine-color-red-outline-hover: rgba(255, 168, 168, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(240, 101, 149, 0.15);--mantine-color-pink-light-hover: rgba(240, 101, 149, 0.2);--mantine-color-pink-light-color: #fcc2d7;--mantine-color-pink-outline: #faa2c1;--mantine-color-pink-outline-hover: rgba(250, 162, 193, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(204, 93, 232, 0.15);--mantine-color-grape-light-hover: rgba(204, 93, 232, 0.2);--mantine-color-grape-light-color: #eebefa;--mantine-color-grape-outline: #e599f7;--mantine-color-grape-outline-hover: rgba(229, 153, 247, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(132, 94, 247, 0.15);--mantine-color-violet-light-hover: rgba(132, 94, 247, 0.2);--mantine-color-violet-light-color: #d0bfff;--mantine-color-violet-outline: #b197fc;--mantine-color-violet-outline-hover: rgba(177, 151, 252, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(92, 124, 250, 0.15);--mantine-color-indigo-light-hover: rgba(92, 124, 250, 0.2);--mantine-color-indigo-light-color: #bac8ff;--mantine-color-indigo-outline: #91a7ff;--mantine-color-indigo-outline-hover: rgba(145, 167, 255, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(51, 154, 240, 0.15);--mantine-color-blue-light-hover: rgba(51, 154, 240, 0.2);--mantine-color-blue-light-color: #a5d8ff;--mantine-color-blue-outline: #74c0fc;--mantine-color-blue-outline-hover: rgba(116, 192, 252, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(34, 184, 207, 0.15);--mantine-color-cyan-light-hover: rgba(34, 184, 207, 0.2);--mantine-color-cyan-light-color: #99e9f2;--mantine-color-cyan-outline: #66d9e8;--mantine-color-cyan-outline-hover: rgba(102, 217, 232, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(32, 201, 151, 0.15);--mantine-color-teal-light-hover: rgba(32, 201, 151, 0.2);--mantine-color-teal-light-color: #96f2d7;--mantine-color-teal-outline: #63e6be;--mantine-color-teal-outline-hover: rgba(99, 230, 190, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(81, 207, 102, 0.15);--mantine-color-green-light-hover: rgba(81, 207, 102, 0.2);--mantine-color-green-light-color: #b2f2bb;--mantine-color-green-outline: #8ce99a;--mantine-color-green-outline-hover: rgba(140, 233, 154, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(148, 216, 45, 0.15);--mantine-color-lime-light-hover: rgba(148, 216, 45, 0.2);--mantine-color-lime-light-color: #d8f5a2;--mantine-color-lime-outline: #c0eb75;--mantine-color-lime-outline-hover: rgba(192, 235, 117, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(252, 196, 25, 0.15);--mantine-color-yellow-light-hover: rgba(252, 196, 25, 0.2);--mantine-color-yellow-light-color: #ffec99;--mantine-color-yellow-outline: #ffe066;--mantine-color-yellow-outline-hover: rgba(255, 224, 102, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(255, 146, 43, 0.15);--mantine-color-orange-light-hover: rgba(255, 146, 43, 0.2);--mantine-color-orange-light-color: #ffd8a8;--mantine-color-orange-outline: #ffc078;--mantine-color-orange-outline-hover: rgba(255, 192, 120, 0.05);}:root[data-mantine-color-scheme="light"]{--mantine-color-anchor: #0ca678;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(26, 27, 30, 0.1);--mantine-color-dark-light-hover: rgba(26, 27, 30, 0.12);--mantine-color-dark-light-color: #1A1B1E;--mantine-color-dark-outline: #1A1B1E;--mantine-color-dark-outline-hover: rgba(26, 27, 30, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(73, 80, 87, 0.1);--mantine-color-gray-light-hover: rgba(73, 80, 87, 0.12);--mantine-color-gray-light-color: #495057;--mantine-color-gray-outline: #495057;--mantine-color-gray-outline-hover: rgba(73, 80, 87, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(240, 62, 62, 0.1);--mantine-color-red-light-hover: rgba(240, 62, 62, 0.12);--mantine-color-red-light-color: #f03e3e;--mantine-color-red-outline: #f03e3e;--mantine-color-red-outline-hover: rgba(240, 62, 62, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(214, 51, 108, 0.1);--mantine-color-pink-light-hover: rgba(214, 51, 108, 0.12);--mantine-color-pink-light-color: #d6336c;--mantine-color-pink-outline: #d6336c;--mantine-color-pink-outline-hover: rgba(214, 51, 108, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(174, 62, 201, 0.1);--mantine-color-grape-light-hover: rgba(174, 62, 201, 0.12);--mantine-color-grape-light-color: #ae3ec9;--mantine-color-grape-outline: #ae3ec9;--mantine-color-grape-outline-hover: rgba(174, 62, 201, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(112, 72, 232, 0.1);--mantine-color-violet-light-hover: rgba(112, 72, 232, 0.12);--mantine-color-violet-light-color: #7048e8;--mantine-color-violet-outline: #7048e8;--mantine-color-violet-outline-hover: rgba(112, 72, 232, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(66, 99, 235, 0.1);--mantine-color-indigo-light-hover: rgba(66, 99, 235, 0.12);--mantine-color-indigo-light-color: #4263eb;--mantine-color-indigo-outline: #4263eb;--mantine-color-indigo-outline-hover: rgba(66, 99, 235, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(28, 126, 214, 0.1);--mantine-color-blue-light-hover: rgba(28, 126, 214, 0.12);--mantine-color-blue-light-color: #1c7ed6;--mantine-color-blue-outline: #1c7ed6;--mantine-color-blue-outline-hover: rgba(28, 126, 214, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(16, 152, 173, 0.1);--mantine-color-cyan-light-hover: rgba(16, 152, 173, 0.12);--mantine-color-cyan-light-color: #1098ad;--mantine-color-cyan-outline: #1098ad;--mantine-color-cyan-outline-hover: rgba(16, 152, 173, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(12, 166, 120, 0.1);--mantine-color-teal-light-hover: rgba(12, 166, 120, 0.12);--mantine-color-teal-light-color: #0ca678;--mantine-color-teal-outline: #0ca678;--mantine-color-teal-outline-hover: rgba(12, 166, 120, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(55, 178, 77, 0.1);--mantine-color-green-light-hover: rgba(55, 178, 77, 0.12);--mantine-color-green-light-color: #37b24d;--mantine-color-green-outline: #37b24d;--mantine-color-green-outline-hover: rgba(55, 178, 77, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(116, 184, 22, 0.1);--mantine-color-lime-light-hover: rgba(116, 184, 22, 0.12);--mantine-color-lime-light-color: #74b816;--mantine-color-lime-outline: #74b816;--mantine-color-lime-outline-hover: rgba(116, 184, 22, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(245, 159, 0, 0.1);--mantine-color-yellow-light-hover: rgba(245, 159, 0, 0.12);--mantine-color-yellow-light-color: #f59f00;--mantine-color-yellow-outline: #f59f00;--mantine-color-yellow-outline-hover: rgba(245, 159, 0, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(247, 103, 7, 0.1);--mantine-color-orange-light-hover: rgba(247, 103, 7, 0.12);--mantine-color-orange-light-color: #f76707;--mantine-color-orange-outline: #f76707;--mantine-color-orange-outline-hover: rgba(247, 103, 7, 0.05);}
+  </style>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <form
+    class="container"
+  >
+    <style
+      data-mantine-styles="inline"
+    >
+      .__m__-rk{--grid-gutter:calc(1.25rem * var(--mantine-scale));}
+    </style>
+    <div
+      class="m-410352e9 mantine-Grid-root __m__-rk"
+    >
+      <div
+        class="m-dee7bd2f mantine-Grid-inner"
+      >
+        <style
+          data-mantine-styles="inline"
+        >
+          .__m__-rm{--col-flex-basis:100%;--col-max-width:100%;}@media(min-width: 36em){.__m__-rm{--col-flex-basis:50%;--col-max-width:50%;}}@media(min-width: 48em){.__m__-rm{--col-flex-basis:33.333333333333336%;--col-max-width:33.333333333333336%;}}@media(min-width: 75em){.__m__-rm{--col-flex-basis:25%;--col-max-width:25%;}}
+        </style>
+        <div
+          class="m-96bdd299 mantine-Grid-col __m__-rm"
+        >
+          <div
+            class="input m-46b77525 mantine-InputWrapper-root mantine-TextInput-root"
+            data-size="md"
+            data-variant="filled"
+          >
+            <div
+              class="m-6c018570 mantine-Input-wrapper mantine-TextInput-wrapper"
+              data-size="md"
+              data-variant="filled"
+              style="--input-height: var(--input-height-md); --input-fz: var(--mantine-font-size-md);"
+            >
+              <input
+                aria-invalid="false"
+                class="m-8fb7ebe7 mantine-Input-input mantine-TextInput-input"
+                data-variant="filled"
+                id="book-title"
+                name="title"
+                placeholder="Title"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <style
+          data-mantine-styles="inline"
+        >
+          .__m__-rs{--col-flex-basis:100%;--col-max-width:100%;}@media(min-width: 36em){.__m__-rs{--col-flex-basis:50%;--col-max-width:50%;}}@media(min-width: 48em){.__m__-rs{--col-flex-basis:33.333333333333336%;--col-max-width:33.333333333333336%;}}@media(min-width: 75em){.__m__-rs{--col-flex-basis:25%;--col-max-width:25%;}}
+        </style>
+        <div
+          class="m-96bdd299 mantine-Grid-col __m__-rs"
+        >
+          <div
+            class="input m-46b77525 mantine-InputWrapper-root mantine-TextInput-root"
+            data-size="md"
+            data-variant="filled"
+          >
+            <div
+              class="m-6c018570 mantine-Input-wrapper mantine-TextInput-wrapper"
+              data-size="md"
+              data-variant="filled"
+              style="--input-height: var(--input-height-md); --input-fz: var(--mantine-font-size-md);"
+            >
+              <input
+                aria-invalid="false"
+                class="m-8fb7ebe7 mantine-Input-input mantine-TextInput-input"
+                data-variant="filled"
+                id="book-author"
+                name="author"
+                placeholder="Author"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <style
+          data-mantine-styles="inline"
+        >
+          .__m__-r12{--col-flex-basis:100%;--col-max-width:100%;}@media(min-width: 48em){.__m__-r12{--col-flex-basis:33.333333333333336%;--col-max-width:33.333333333333336%;}}@media(min-width: 75em){.__m__-r12{--col-flex-basis:25%;--col-max-width:25%;}}
+        </style>
+        <div
+          class="m-96bdd299 mantine-Grid-col __m__-r12"
+        >
+          <div
+            class="m-46b77525 mantine-InputWrapper-root mantine-Select-root"
+            data-size="md"
+            data-variant="filled"
+          >
+            <div
+              class="m-6c018570 mantine-Input-wrapper mantine-Select-wrapper"
+              data-size="md"
+              data-variant="filled"
+              data-with-right-section="true"
+              style="--input-height: var(--input-height-md); --input-fz: var(--mantine-font-size-md); --input-right-section-pointer-events: none;"
+            >
+              <input
+                aria-haspopup="listbox"
+                aria-invalid="false"
+                autocomplete="off"
+                class="m-8fb7ebe7 mantine-Input-input mantine-Select-input"
+                data-variant="filled"
+                id="book-field"
+                placeholder="Subject"
+                value=""
+              />
+              <div
+                class="m-82577fc2 mantine-Input-section mantine-Select-section"
+                data-position="right"
+              >
+                <svg
+                  class="m-2943220b mantine-ComboboxChevron-chevron"
+                  data-combobox-chevron="true"
+                  data-size="md"
+                  fill="none"
+                  style="--combobox-chevron-size: var(--combobox-chevron-size-md);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <input
+            name="field"
+            type="hidden"
+            value=""
+          />
+        </div>
+        <style
+          data-mantine-styles="inline"
+        >
+          .__m__-r1c{--col-flex-basis:100%;--col-max-width:100%;}@media(min-width: 75em){.__m__-r1c{--col-flex-basis:25%;--col-max-width:25%;}}
+        </style>
+        <div
+          class="m-96bdd299 mantine-Grid-col __m__-r1c"
+        >
+          <button
+            class="mantine-focus-auto mantine-active m-77c9d27d mantine-Button-root m-87cf2631 mantine-UnstyledButton-root"
+            data-size="md"
+            data-variant="filled"
+            style="--button-height: var(--button-height-md); --button-padding-x: var(--button-padding-x-md); --button-fz: var(--mantine-font-size-md); --button-bg: var(--mantine-color-teal-filled); --button-hover: var(--mantine-color-teal-filled-hover); --button-color: var(--mantine-color-white); --button-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;"
+            type="submit"
+          >
+            <span
+              class="m-80f1301b mantine-Button-inner"
+            >
+              <span
+                class="m-811560b9 mantine-Button-label"
+              >
+                FILTER
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Book renders book search unchanged 1`] = `
+<div>
+  <style
+    data-mantine-styles="true"
+  >
+    :root{--mantine-font-family: fontFamily;--mantine-font-family-headings: fontFamily;--mantine-primary-color-filled: var(--mantine-color-teal-filled);--mantine-primary-color-filled-hover: var(--mantine-color-teal-filled-hover);--mantine-primary-color-light: var(--mantine-color-teal-light);--mantine-primary-color-light-hover: var(--mantine-color-teal-light-hover);--mantine-primary-color-light-color: var(--mantine-color-teal-light-color);}:root[data-mantine-color-scheme="dark"]{--mantine-color-anchor: #38d9a9;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(44, 46, 51, 0.15);--mantine-color-dark-light-hover: rgba(44, 46, 51, 0.2);--mantine-color-dark-light-color: #909296;--mantine-color-dark-outline: #5c5f66;--mantine-color-dark-outline-hover: rgba(92, 95, 102, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(173, 181, 189, 0.15);--mantine-color-gray-light-hover: rgba(173, 181, 189, 0.2);--mantine-color-gray-light-color: #e9ecef;--mantine-color-gray-outline: #dee2e6;--mantine-color-gray-outline-hover: rgba(222, 226, 230, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(255, 107, 107, 0.15);--mantine-color-red-light-hover: rgba(255, 107, 107, 0.2);--mantine-color-red-light-color: #ffc9c9;--mantine-color-red-outline: #ffa8a8;--mantine-color-red-outline-hover: rgba(255, 168, 168, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(240, 101, 149, 0.15);--mantine-color-pink-light-hover: rgba(240, 101, 149, 0.2);--mantine-color-pink-light-color: #fcc2d7;--mantine-color-pink-outline: #faa2c1;--mantine-color-pink-outline-hover: rgba(250, 162, 193, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(204, 93, 232, 0.15);--mantine-color-grape-light-hover: rgba(204, 93, 232, 0.2);--mantine-color-grape-light-color: #eebefa;--mantine-color-grape-outline: #e599f7;--mantine-color-grape-outline-hover: rgba(229, 153, 247, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(132, 94, 247, 0.15);--mantine-color-violet-light-hover: rgba(132, 94, 247, 0.2);--mantine-color-violet-light-color: #d0bfff;--mantine-color-violet-outline: #b197fc;--mantine-color-violet-outline-hover: rgba(177, 151, 252, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(92, 124, 250, 0.15);--mantine-color-indigo-light-hover: rgba(92, 124, 250, 0.2);--mantine-color-indigo-light-color: #bac8ff;--mantine-color-indigo-outline: #91a7ff;--mantine-color-indigo-outline-hover: rgba(145, 167, 255, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(51, 154, 240, 0.15);--mantine-color-blue-light-hover: rgba(51, 154, 240, 0.2);--mantine-color-blue-light-color: #a5d8ff;--mantine-color-blue-outline: #74c0fc;--mantine-color-blue-outline-hover: rgba(116, 192, 252, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(34, 184, 207, 0.15);--mantine-color-cyan-light-hover: rgba(34, 184, 207, 0.2);--mantine-color-cyan-light-color: #99e9f2;--mantine-color-cyan-outline: #66d9e8;--mantine-color-cyan-outline-hover: rgba(102, 217, 232, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(32, 201, 151, 0.15);--mantine-color-teal-light-hover: rgba(32, 201, 151, 0.2);--mantine-color-teal-light-color: #96f2d7;--mantine-color-teal-outline: #63e6be;--mantine-color-teal-outline-hover: rgba(99, 230, 190, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(81, 207, 102, 0.15);--mantine-color-green-light-hover: rgba(81, 207, 102, 0.2);--mantine-color-green-light-color: #b2f2bb;--mantine-color-green-outline: #8ce99a;--mantine-color-green-outline-hover: rgba(140, 233, 154, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(148, 216, 45, 0.15);--mantine-color-lime-light-hover: rgba(148, 216, 45, 0.2);--mantine-color-lime-light-color: #d8f5a2;--mantine-color-lime-outline: #c0eb75;--mantine-color-lime-outline-hover: rgba(192, 235, 117, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(252, 196, 25, 0.15);--mantine-color-yellow-light-hover: rgba(252, 196, 25, 0.2);--mantine-color-yellow-light-color: #ffec99;--mantine-color-yellow-outline: #ffe066;--mantine-color-yellow-outline-hover: rgba(255, 224, 102, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(255, 146, 43, 0.15);--mantine-color-orange-light-hover: rgba(255, 146, 43, 0.2);--mantine-color-orange-light-color: #ffd8a8;--mantine-color-orange-outline: #ffc078;--mantine-color-orange-outline-hover: rgba(255, 192, 120, 0.05);}:root[data-mantine-color-scheme="light"]{--mantine-color-anchor: #0ca678;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(26, 27, 30, 0.1);--mantine-color-dark-light-hover: rgba(26, 27, 30, 0.12);--mantine-color-dark-light-color: #1A1B1E;--mantine-color-dark-outline: #1A1B1E;--mantine-color-dark-outline-hover: rgba(26, 27, 30, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(73, 80, 87, 0.1);--mantine-color-gray-light-hover: rgba(73, 80, 87, 0.12);--mantine-color-gray-light-color: #495057;--mantine-color-gray-outline: #495057;--mantine-color-gray-outline-hover: rgba(73, 80, 87, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(240, 62, 62, 0.1);--mantine-color-red-light-hover: rgba(240, 62, 62, 0.12);--mantine-color-red-light-color: #f03e3e;--mantine-color-red-outline: #f03e3e;--mantine-color-red-outline-hover: rgba(240, 62, 62, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(214, 51, 108, 0.1);--mantine-color-pink-light-hover: rgba(214, 51, 108, 0.12);--mantine-color-pink-light-color: #d6336c;--mantine-color-pink-outline: #d6336c;--mantine-color-pink-outline-hover: rgba(214, 51, 108, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(174, 62, 201, 0.1);--mantine-color-grape-light-hover: rgba(174, 62, 201, 0.12);--mantine-color-grape-light-color: #ae3ec9;--mantine-color-grape-outline: #ae3ec9;--mantine-color-grape-outline-hover: rgba(174, 62, 201, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(112, 72, 232, 0.1);--mantine-color-violet-light-hover: rgba(112, 72, 232, 0.12);--mantine-color-violet-light-color: #7048e8;--mantine-color-violet-outline: #7048e8;--mantine-color-violet-outline-hover: rgba(112, 72, 232, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(66, 99, 235, 0.1);--mantine-color-indigo-light-hover: rgba(66, 99, 235, 0.12);--mantine-color-indigo-light-color: #4263eb;--mantine-color-indigo-outline: #4263eb;--mantine-color-indigo-outline-hover: rgba(66, 99, 235, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(28, 126, 214, 0.1);--mantine-color-blue-light-hover: rgba(28, 126, 214, 0.12);--mantine-color-blue-light-color: #1c7ed6;--mantine-color-blue-outline: #1c7ed6;--mantine-color-blue-outline-hover: rgba(28, 126, 214, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(16, 152, 173, 0.1);--mantine-color-cyan-light-hover: rgba(16, 152, 173, 0.12);--mantine-color-cyan-light-color: #1098ad;--mantine-color-cyan-outline: #1098ad;--mantine-color-cyan-outline-hover: rgba(16, 152, 173, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(12, 166, 120, 0.1);--mantine-color-teal-light-hover: rgba(12, 166, 120, 0.12);--mantine-color-teal-light-color: #0ca678;--mantine-color-teal-outline: #0ca678;--mantine-color-teal-outline-hover: rgba(12, 166, 120, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(55, 178, 77, 0.1);--mantine-color-green-light-hover: rgba(55, 178, 77, 0.12);--mantine-color-green-light-color: #37b24d;--mantine-color-green-outline: #37b24d;--mantine-color-green-outline-hover: rgba(55, 178, 77, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(116, 184, 22, 0.1);--mantine-color-lime-light-hover: rgba(116, 184, 22, 0.12);--mantine-color-lime-light-color: #74b816;--mantine-color-lime-outline: #74b816;--mantine-color-lime-outline-hover: rgba(116, 184, 22, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(245, 159, 0, 0.1);--mantine-color-yellow-light-hover: rgba(245, 159, 0, 0.12);--mantine-color-yellow-light-color: #f59f00;--mantine-color-yellow-outline: #f59f00;--mantine-color-yellow-outline-hover: rgba(245, 159, 0, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(247, 103, 7, 0.1);--mantine-color-orange-light-hover: rgba(247, 103, 7, 0.12);--mantine-color-orange-light-color: #f76707;--mantine-color-orange-outline: #f76707;--mantine-color-orange-outline-hover: rgba(247, 103, 7, 0.05);}
+  </style>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <form
+    class="container"
+  >
+    <style
+      data-mantine-styles="inline"
+    >
+      .__m__-r49{--grid-gutter:calc(1.25rem * var(--mantine-scale));}
+    </style>
+    <div
+      class="m-410352e9 mantine-Grid-root __m__-r49"
+    >
+      <div
+        class="m-dee7bd2f mantine-Grid-inner"
+      >
+        <style
+          data-mantine-styles="inline"
+        >
+          .__m__-r4b{--col-flex-basis:100%;--col-max-width:100%;}@media(min-width: 36em){.__m__-r4b{--col-flex-basis:50%;--col-max-width:50%;}}@media(min-width: 48em){.__m__-r4b{--col-flex-basis:33.333333333333336%;--col-max-width:33.333333333333336%;}}@media(min-width: 75em){.__m__-r4b{--col-flex-basis:25%;--col-max-width:25%;}}
+        </style>
+        <div
+          class="m-96bdd299 mantine-Grid-col __m__-r4b"
+        >
+          <div
+            class="input m-46b77525 mantine-InputWrapper-root mantine-TextInput-root"
+            data-size="md"
+            data-variant="filled"
+          >
+            <div
+              class="m-6c018570 mantine-Input-wrapper mantine-TextInput-wrapper"
+              data-size="md"
+              data-variant="filled"
+              style="--input-height: var(--input-height-md); --input-fz: var(--mantine-font-size-md);"
+            >
+              <input
+                aria-invalid="false"
+                class="m-8fb7ebe7 mantine-Input-input mantine-TextInput-input"
+                data-variant="filled"
+                id="book-title"
+                name="title"
+                placeholder="Title"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <style
+          data-mantine-styles="inline"
+        >
+          .__m__-r4h{--col-flex-basis:100%;--col-max-width:100%;}@media(min-width: 36em){.__m__-r4h{--col-flex-basis:50%;--col-max-width:50%;}}@media(min-width: 48em){.__m__-r4h{--col-flex-basis:33.333333333333336%;--col-max-width:33.333333333333336%;}}@media(min-width: 75em){.__m__-r4h{--col-flex-basis:25%;--col-max-width:25%;}}
+        </style>
+        <div
+          class="m-96bdd299 mantine-Grid-col __m__-r4h"
+        >
+          <div
+            class="input m-46b77525 mantine-InputWrapper-root mantine-TextInput-root"
+            data-size="md"
+            data-variant="filled"
+          >
+            <div
+              class="m-6c018570 mantine-Input-wrapper mantine-TextInput-wrapper"
+              data-size="md"
+              data-variant="filled"
+              style="--input-height: var(--input-height-md); --input-fz: var(--mantine-font-size-md);"
+            >
+              <input
+                aria-invalid="false"
+                class="m-8fb7ebe7 mantine-Input-input mantine-TextInput-input"
+                data-variant="filled"
+                id="book-author"
+                name="author"
+                placeholder="Author"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <style
+          data-mantine-styles="inline"
+        >
+          .__m__-r4n{--col-flex-basis:100%;--col-max-width:100%;}@media(min-width: 48em){.__m__-r4n{--col-flex-basis:33.333333333333336%;--col-max-width:33.333333333333336%;}}@media(min-width: 75em){.__m__-r4n{--col-flex-basis:25%;--col-max-width:25%;}}
+        </style>
+        <div
+          class="m-96bdd299 mantine-Grid-col __m__-r4n"
+        >
+          <div
+            class="m-46b77525 mantine-InputWrapper-root mantine-Select-root"
+            data-size="md"
+            data-variant="filled"
+          >
+            <div
+              class="m-6c018570 mantine-Input-wrapper mantine-Select-wrapper"
+              data-size="md"
+              data-variant="filled"
+              data-with-right-section="true"
+              style="--input-height: var(--input-height-md); --input-fz: var(--mantine-font-size-md); --input-right-section-pointer-events: none;"
+            >
+              <input
+                aria-haspopup="listbox"
+                aria-invalid="false"
+                autocomplete="off"
+                class="m-8fb7ebe7 mantine-Input-input mantine-Select-input"
+                data-variant="filled"
+                id="book-field"
+                placeholder="Subject"
+                value=""
+              />
+              <div
+                class="m-82577fc2 mantine-Input-section mantine-Select-section"
+                data-position="right"
+              >
+                <svg
+                  class="m-2943220b mantine-ComboboxChevron-chevron"
+                  data-combobox-chevron="true"
+                  data-size="md"
+                  fill="none"
+                  style="--combobox-chevron-size: var(--combobox-chevron-size-md);"
+                  viewBox="0 0 15 15"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M4.93179 5.43179C4.75605 5.60753 4.75605 5.89245 4.93179 6.06819C5.10753 6.24392 5.39245 6.24392 5.56819 6.06819L7.49999 4.13638L9.43179 6.06819C9.60753 6.24392 9.89245 6.24392 10.0682 6.06819C10.2439 5.89245 10.2439 5.60753 10.0682 5.43179L7.81819 3.18179C7.73379 3.0974 7.61933 3.04999 7.49999 3.04999C7.38064 3.04999 7.26618 3.0974 7.18179 3.18179L4.93179 5.43179ZM10.0682 9.56819C10.2439 9.39245 10.2439 9.10753 10.0682 8.93179C9.89245 8.75606 9.60753 8.75606 9.43179 8.93179L7.49999 10.8636L5.56819 8.93179C5.39245 8.75606 5.10753 8.75606 4.93179 8.93179C4.75605 9.10753 4.75605 9.39245 4.93179 9.56819L7.18179 11.8182C7.35753 11.9939 7.64245 11.9939 7.81819 11.8182L10.0682 9.56819Z"
+                    fill="currentColor"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <input
+            name="field"
+            type="hidden"
+            value=""
+          />
+        </div>
+        <style
+          data-mantine-styles="inline"
+        >
+          .__m__-r51{--col-flex-basis:100%;--col-max-width:100%;}@media(min-width: 75em){.__m__-r51{--col-flex-basis:25%;--col-max-width:25%;}}
+        </style>
+        <div
+          class="m-96bdd299 mantine-Grid-col __m__-r51"
+        >
+          <button
+            class="mantine-focus-auto m-77c9d27d mantine-Button-root m-87cf2631 mantine-UnstyledButton-root"
+            data-loading="true"
+            data-size="md"
+            data-variant="filled"
+            disabled=""
+            style="--button-height: var(--button-height-md); --button-padding-x: var(--button-padding-x-md); --button-fz: var(--mantine-font-size-md); --button-bg: var(--mantine-color-teal-filled); --button-hover: var(--mantine-color-teal-filled-hover); --button-color: var(--mantine-color-white); --button-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;"
+            type="submit"
+          >
+            <span
+              class="m-80f1301b mantine-Button-inner"
+            >
+              <span
+                class="m-a25b86ee mantine-Button-loader"
+              >
+                <span
+                  class="m-b34414df m-5ae2e3c mantine-Loader-root"
+                  style="--loader-size: calc(var(--button-height) / 1.8); --loader-color: var(--button-color);"
+                />
+              </span>
+              <span
+                class="m-811560b9 mantine-Button-label"
+                data-loading="true"
+              >
+                FILTER
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+`;
+
+exports[`Book renders book small unchanged 1`] = `
+<div>
+  <style
+    data-mantine-styles="true"
+  >
+    :root{--mantine-font-family: fontFamily;--mantine-font-family-headings: fontFamily;--mantine-primary-color-filled: var(--mantine-color-teal-filled);--mantine-primary-color-filled-hover: var(--mantine-color-teal-filled-hover);--mantine-primary-color-light: var(--mantine-color-teal-light);--mantine-primary-color-light-hover: var(--mantine-color-teal-light-hover);--mantine-primary-color-light-color: var(--mantine-color-teal-light-color);}:root[data-mantine-color-scheme="dark"]{--mantine-color-anchor: #38d9a9;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(44, 46, 51, 0.15);--mantine-color-dark-light-hover: rgba(44, 46, 51, 0.2);--mantine-color-dark-light-color: #909296;--mantine-color-dark-outline: #5c5f66;--mantine-color-dark-outline-hover: rgba(92, 95, 102, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(173, 181, 189, 0.15);--mantine-color-gray-light-hover: rgba(173, 181, 189, 0.2);--mantine-color-gray-light-color: #e9ecef;--mantine-color-gray-outline: #dee2e6;--mantine-color-gray-outline-hover: rgba(222, 226, 230, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(255, 107, 107, 0.15);--mantine-color-red-light-hover: rgba(255, 107, 107, 0.2);--mantine-color-red-light-color: #ffc9c9;--mantine-color-red-outline: #ffa8a8;--mantine-color-red-outline-hover: rgba(255, 168, 168, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(240, 101, 149, 0.15);--mantine-color-pink-light-hover: rgba(240, 101, 149, 0.2);--mantine-color-pink-light-color: #fcc2d7;--mantine-color-pink-outline: #faa2c1;--mantine-color-pink-outline-hover: rgba(250, 162, 193, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(204, 93, 232, 0.15);--mantine-color-grape-light-hover: rgba(204, 93, 232, 0.2);--mantine-color-grape-light-color: #eebefa;--mantine-color-grape-outline: #e599f7;--mantine-color-grape-outline-hover: rgba(229, 153, 247, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(132, 94, 247, 0.15);--mantine-color-violet-light-hover: rgba(132, 94, 247, 0.2);--mantine-color-violet-light-color: #d0bfff;--mantine-color-violet-outline: #b197fc;--mantine-color-violet-outline-hover: rgba(177, 151, 252, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(92, 124, 250, 0.15);--mantine-color-indigo-light-hover: rgba(92, 124, 250, 0.2);--mantine-color-indigo-light-color: #bac8ff;--mantine-color-indigo-outline: #91a7ff;--mantine-color-indigo-outline-hover: rgba(145, 167, 255, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(51, 154, 240, 0.15);--mantine-color-blue-light-hover: rgba(51, 154, 240, 0.2);--mantine-color-blue-light-color: #a5d8ff;--mantine-color-blue-outline: #74c0fc;--mantine-color-blue-outline-hover: rgba(116, 192, 252, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(34, 184, 207, 0.15);--mantine-color-cyan-light-hover: rgba(34, 184, 207, 0.2);--mantine-color-cyan-light-color: #99e9f2;--mantine-color-cyan-outline: #66d9e8;--mantine-color-cyan-outline-hover: rgba(102, 217, 232, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(32, 201, 151, 0.15);--mantine-color-teal-light-hover: rgba(32, 201, 151, 0.2);--mantine-color-teal-light-color: #96f2d7;--mantine-color-teal-outline: #63e6be;--mantine-color-teal-outline-hover: rgba(99, 230, 190, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(81, 207, 102, 0.15);--mantine-color-green-light-hover: rgba(81, 207, 102, 0.2);--mantine-color-green-light-color: #b2f2bb;--mantine-color-green-outline: #8ce99a;--mantine-color-green-outline-hover: rgba(140, 233, 154, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(148, 216, 45, 0.15);--mantine-color-lime-light-hover: rgba(148, 216, 45, 0.2);--mantine-color-lime-light-color: #d8f5a2;--mantine-color-lime-outline: #c0eb75;--mantine-color-lime-outline-hover: rgba(192, 235, 117, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(252, 196, 25, 0.15);--mantine-color-yellow-light-hover: rgba(252, 196, 25, 0.2);--mantine-color-yellow-light-color: #ffec99;--mantine-color-yellow-outline: #ffe066;--mantine-color-yellow-outline-hover: rgba(255, 224, 102, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(255, 146, 43, 0.15);--mantine-color-orange-light-hover: rgba(255, 146, 43, 0.2);--mantine-color-orange-light-color: #ffd8a8;--mantine-color-orange-outline: #ffc078;--mantine-color-orange-outline-hover: rgba(255, 192, 120, 0.05);}:root[data-mantine-color-scheme="light"]{--mantine-color-anchor: #0ca678;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(26, 27, 30, 0.1);--mantine-color-dark-light-hover: rgba(26, 27, 30, 0.12);--mantine-color-dark-light-color: #1A1B1E;--mantine-color-dark-outline: #1A1B1E;--mantine-color-dark-outline-hover: rgba(26, 27, 30, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(73, 80, 87, 0.1);--mantine-color-gray-light-hover: rgba(73, 80, 87, 0.12);--mantine-color-gray-light-color: #495057;--mantine-color-gray-outline: #495057;--mantine-color-gray-outline-hover: rgba(73, 80, 87, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(240, 62, 62, 0.1);--mantine-color-red-light-hover: rgba(240, 62, 62, 0.12);--mantine-color-red-light-color: #f03e3e;--mantine-color-red-outline: #f03e3e;--mantine-color-red-outline-hover: rgba(240, 62, 62, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(214, 51, 108, 0.1);--mantine-color-pink-light-hover: rgba(214, 51, 108, 0.12);--mantine-color-pink-light-color: #d6336c;--mantine-color-pink-outline: #d6336c;--mantine-color-pink-outline-hover: rgba(214, 51, 108, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(174, 62, 201, 0.1);--mantine-color-grape-light-hover: rgba(174, 62, 201, 0.12);--mantine-color-grape-light-color: #ae3ec9;--mantine-color-grape-outline: #ae3ec9;--mantine-color-grape-outline-hover: rgba(174, 62, 201, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(112, 72, 232, 0.1);--mantine-color-violet-light-hover: rgba(112, 72, 232, 0.12);--mantine-color-violet-light-color: #7048e8;--mantine-color-violet-outline: #7048e8;--mantine-color-violet-outline-hover: rgba(112, 72, 232, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(66, 99, 235, 0.1);--mantine-color-indigo-light-hover: rgba(66, 99, 235, 0.12);--mantine-color-indigo-light-color: #4263eb;--mantine-color-indigo-outline: #4263eb;--mantine-color-indigo-outline-hover: rgba(66, 99, 235, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(28, 126, 214, 0.1);--mantine-color-blue-light-hover: rgba(28, 126, 214, 0.12);--mantine-color-blue-light-color: #1c7ed6;--mantine-color-blue-outline: #1c7ed6;--mantine-color-blue-outline-hover: rgba(28, 126, 214, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(16, 152, 173, 0.1);--mantine-color-cyan-light-hover: rgba(16, 152, 173, 0.12);--mantine-color-cyan-light-color: #1098ad;--mantine-color-cyan-outline: #1098ad;--mantine-color-cyan-outline-hover: rgba(16, 152, 173, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(12, 166, 120, 0.1);--mantine-color-teal-light-hover: rgba(12, 166, 120, 0.12);--mantine-color-teal-light-color: #0ca678;--mantine-color-teal-outline: #0ca678;--mantine-color-teal-outline-hover: rgba(12, 166, 120, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(55, 178, 77, 0.1);--mantine-color-green-light-hover: rgba(55, 178, 77, 0.12);--mantine-color-green-light-color: #37b24d;--mantine-color-green-outline: #37b24d;--mantine-color-green-outline-hover: rgba(55, 178, 77, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(116, 184, 22, 0.1);--mantine-color-lime-light-hover: rgba(116, 184, 22, 0.12);--mantine-color-lime-light-color: #74b816;--mantine-color-lime-outline: #74b816;--mantine-color-lime-outline-hover: rgba(116, 184, 22, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(245, 159, 0, 0.1);--mantine-color-yellow-light-hover: rgba(245, 159, 0, 0.12);--mantine-color-yellow-light-color: #f59f00;--mantine-color-yellow-outline: #f59f00;--mantine-color-yellow-outline-hover: rgba(245, 159, 0, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(247, 103, 7, 0.1);--mantine-color-orange-light-hover: rgba(247, 103, 7, 0.12);--mantine-color-orange-light-color: #f76707;--mantine-color-orange-outline: #f76707;--mantine-color-orange-outline-hover: rgba(247, 103, 7, 0.05);}
+  </style>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="container"
+  >
+    <div>
+      <img
+        alt="Book cover 1"
+        class="image"
+        height="75"
+        src="https://example.com/book-1"
+        width="75"
+      />
+    </div>
+    <div
+      class="details"
+    >
+      <div
+        class="author"
+      >
+        Bob
+      </div>
+      <h4
+        class="title m-8a5d1357 mantine-Title-root"
+        data-order="4"
+        style="--title-fw: var(--mantine-h4-font-weight); --title-lh: var(--mantine-h4-line-height); --title-fz: var(--mantine-h4-font-size);"
+      >
+        Best fiction book
+      </h4>
+      <button
+        class="mantine-focus-auto mantine-active m-77c9d27d mantine-Button-root m-87cf2631 mantine-UnstyledButton-root"
+        data-size="compact-xs"
+        data-variant="light"
+        style="--button-height: var(--button-height-compact-xs); --button-padding-x: var(--button-padding-x-compact-xs); --button-fz: var(--mantine-font-size-xs); --button-bg: var(--mantine-color-red-light); --button-hover: var(--mantine-color-red-light-hover); --button-color: var(--mantine-color-red-light-color); --button-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;"
+        type="button"
+      >
+        <span
+          class="m-80f1301b mantine-Button-inner"
+        >
+          <span
+            class="m-811560b9 mantine-Button-label"
+          >
+            REMOVE
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Book renders book unchanged 1`] = `
+<div>
+  <style
+    data-mantine-styles="true"
+  >
+    :root{--mantine-font-family: fontFamily;--mantine-font-family-headings: fontFamily;--mantine-primary-color-filled: var(--mantine-color-teal-filled);--mantine-primary-color-filled-hover: var(--mantine-color-teal-filled-hover);--mantine-primary-color-light: var(--mantine-color-teal-light);--mantine-primary-color-light-hover: var(--mantine-color-teal-light-hover);--mantine-primary-color-light-color: var(--mantine-color-teal-light-color);}:root[data-mantine-color-scheme="dark"]{--mantine-color-anchor: #38d9a9;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(44, 46, 51, 0.15);--mantine-color-dark-light-hover: rgba(44, 46, 51, 0.2);--mantine-color-dark-light-color: #909296;--mantine-color-dark-outline: #5c5f66;--mantine-color-dark-outline-hover: rgba(92, 95, 102, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(173, 181, 189, 0.15);--mantine-color-gray-light-hover: rgba(173, 181, 189, 0.2);--mantine-color-gray-light-color: #e9ecef;--mantine-color-gray-outline: #dee2e6;--mantine-color-gray-outline-hover: rgba(222, 226, 230, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(255, 107, 107, 0.15);--mantine-color-red-light-hover: rgba(255, 107, 107, 0.2);--mantine-color-red-light-color: #ffc9c9;--mantine-color-red-outline: #ffa8a8;--mantine-color-red-outline-hover: rgba(255, 168, 168, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(240, 101, 149, 0.15);--mantine-color-pink-light-hover: rgba(240, 101, 149, 0.2);--mantine-color-pink-light-color: #fcc2d7;--mantine-color-pink-outline: #faa2c1;--mantine-color-pink-outline-hover: rgba(250, 162, 193, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(204, 93, 232, 0.15);--mantine-color-grape-light-hover: rgba(204, 93, 232, 0.2);--mantine-color-grape-light-color: #eebefa;--mantine-color-grape-outline: #e599f7;--mantine-color-grape-outline-hover: rgba(229, 153, 247, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(132, 94, 247, 0.15);--mantine-color-violet-light-hover: rgba(132, 94, 247, 0.2);--mantine-color-violet-light-color: #d0bfff;--mantine-color-violet-outline: #b197fc;--mantine-color-violet-outline-hover: rgba(177, 151, 252, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(92, 124, 250, 0.15);--mantine-color-indigo-light-hover: rgba(92, 124, 250, 0.2);--mantine-color-indigo-light-color: #bac8ff;--mantine-color-indigo-outline: #91a7ff;--mantine-color-indigo-outline-hover: rgba(145, 167, 255, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(51, 154, 240, 0.15);--mantine-color-blue-light-hover: rgba(51, 154, 240, 0.2);--mantine-color-blue-light-color: #a5d8ff;--mantine-color-blue-outline: #74c0fc;--mantine-color-blue-outline-hover: rgba(116, 192, 252, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(34, 184, 207, 0.15);--mantine-color-cyan-light-hover: rgba(34, 184, 207, 0.2);--mantine-color-cyan-light-color: #99e9f2;--mantine-color-cyan-outline: #66d9e8;--mantine-color-cyan-outline-hover: rgba(102, 217, 232, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(32, 201, 151, 0.15);--mantine-color-teal-light-hover: rgba(32, 201, 151, 0.2);--mantine-color-teal-light-color: #96f2d7;--mantine-color-teal-outline: #63e6be;--mantine-color-teal-outline-hover: rgba(99, 230, 190, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(81, 207, 102, 0.15);--mantine-color-green-light-hover: rgba(81, 207, 102, 0.2);--mantine-color-green-light-color: #b2f2bb;--mantine-color-green-outline: #8ce99a;--mantine-color-green-outline-hover: rgba(140, 233, 154, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(148, 216, 45, 0.15);--mantine-color-lime-light-hover: rgba(148, 216, 45, 0.2);--mantine-color-lime-light-color: #d8f5a2;--mantine-color-lime-outline: #c0eb75;--mantine-color-lime-outline-hover: rgba(192, 235, 117, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(252, 196, 25, 0.15);--mantine-color-yellow-light-hover: rgba(252, 196, 25, 0.2);--mantine-color-yellow-light-color: #ffec99;--mantine-color-yellow-outline: #ffe066;--mantine-color-yellow-outline-hover: rgba(255, 224, 102, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(255, 146, 43, 0.15);--mantine-color-orange-light-hover: rgba(255, 146, 43, 0.2);--mantine-color-orange-light-color: #ffd8a8;--mantine-color-orange-outline: #ffc078;--mantine-color-orange-outline-hover: rgba(255, 192, 120, 0.05);}:root[data-mantine-color-scheme="light"]{--mantine-color-anchor: #0ca678;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(26, 27, 30, 0.1);--mantine-color-dark-light-hover: rgba(26, 27, 30, 0.12);--mantine-color-dark-light-color: #1A1B1E;--mantine-color-dark-outline: #1A1B1E;--mantine-color-dark-outline-hover: rgba(26, 27, 30, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(73, 80, 87, 0.1);--mantine-color-gray-light-hover: rgba(73, 80, 87, 0.12);--mantine-color-gray-light-color: #495057;--mantine-color-gray-outline: #495057;--mantine-color-gray-outline-hover: rgba(73, 80, 87, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(240, 62, 62, 0.1);--mantine-color-red-light-hover: rgba(240, 62, 62, 0.12);--mantine-color-red-light-color: #f03e3e;--mantine-color-red-outline: #f03e3e;--mantine-color-red-outline-hover: rgba(240, 62, 62, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(214, 51, 108, 0.1);--mantine-color-pink-light-hover: rgba(214, 51, 108, 0.12);--mantine-color-pink-light-color: #d6336c;--mantine-color-pink-outline: #d6336c;--mantine-color-pink-outline-hover: rgba(214, 51, 108, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(174, 62, 201, 0.1);--mantine-color-grape-light-hover: rgba(174, 62, 201, 0.12);--mantine-color-grape-light-color: #ae3ec9;--mantine-color-grape-outline: #ae3ec9;--mantine-color-grape-outline-hover: rgba(174, 62, 201, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(112, 72, 232, 0.1);--mantine-color-violet-light-hover: rgba(112, 72, 232, 0.12);--mantine-color-violet-light-color: #7048e8;--mantine-color-violet-outline: #7048e8;--mantine-color-violet-outline-hover: rgba(112, 72, 232, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(66, 99, 235, 0.1);--mantine-color-indigo-light-hover: rgba(66, 99, 235, 0.12);--mantine-color-indigo-light-color: #4263eb;--mantine-color-indigo-outline: #4263eb;--mantine-color-indigo-outline-hover: rgba(66, 99, 235, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(28, 126, 214, 0.1);--mantine-color-blue-light-hover: rgba(28, 126, 214, 0.12);--mantine-color-blue-light-color: #1c7ed6;--mantine-color-blue-outline: #1c7ed6;--mantine-color-blue-outline-hover: rgba(28, 126, 214, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(16, 152, 173, 0.1);--mantine-color-cyan-light-hover: rgba(16, 152, 173, 0.12);--mantine-color-cyan-light-color: #1098ad;--mantine-color-cyan-outline: #1098ad;--mantine-color-cyan-outline-hover: rgba(16, 152, 173, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(12, 166, 120, 0.1);--mantine-color-teal-light-hover: rgba(12, 166, 120, 0.12);--mantine-color-teal-light-color: #0ca678;--mantine-color-teal-outline: #0ca678;--mantine-color-teal-outline-hover: rgba(12, 166, 120, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(55, 178, 77, 0.1);--mantine-color-green-light-hover: rgba(55, 178, 77, 0.12);--mantine-color-green-light-color: #37b24d;--mantine-color-green-outline: #37b24d;--mantine-color-green-outline-hover: rgba(55, 178, 77, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(116, 184, 22, 0.1);--mantine-color-lime-light-hover: rgba(116, 184, 22, 0.12);--mantine-color-lime-light-color: #74b816;--mantine-color-lime-outline: #74b816;--mantine-color-lime-outline-hover: rgba(116, 184, 22, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(245, 159, 0, 0.1);--mantine-color-yellow-light-hover: rgba(245, 159, 0, 0.12);--mantine-color-yellow-light-color: #f59f00;--mantine-color-yellow-outline: #f59f00;--mantine-color-yellow-outline-hover: rgba(245, 159, 0, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(247, 103, 7, 0.1);--mantine-color-orange-light-hover: rgba(247, 103, 7, 0.12);--mantine-color-orange-light-color: #f76707;--mantine-color-orange-outline: #f76707;--mantine-color-orange-outline-hover: rgba(247, 103, 7, 0.05);}
+  </style>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+  <div
+    class="container"
+  >
+    <a
+      class="mantine-focus-auto m-849cf0da m-b6d8b162 mantine-Text-root mantine-Anchor-root"
+      data-underline="hover"
+      href="/books/view/abc"
+    >
+      <img
+        alt="Book cover 1"
+        class="image"
+        height="150"
+        src="https://example.com/book-1"
+        width="150"
+      />
+    </a>
+    <div
+      class="details"
+    >
+      <div
+        class="author"
+      >
+        Bob
+      </div>
+      <a
+        class="mantine-focus-auto m-849cf0da m-b6d8b162 mantine-Text-root mantine-Anchor-root"
+        data-underline="hover"
+        href="/books/view/abc"
+      >
+        <h4
+          class="title m-8a5d1357 mantine-Title-root"
+          data-order="4"
+          style="--title-fw: var(--mantine-h4-font-weight); --title-lh: var(--mantine-h4-line-height); --title-fz: var(--mantine-h4-font-size);"
+        >
+          Best fiction book
+        </h4>
+      </a>
+      <div
+        class="price"
+      >
+        US$19.99
+      </div>
+      <button
+        class="mantine-focus-auto mantine-active button m-77c9d27d mantine-Button-root m-87cf2631 mantine-UnstyledButton-root"
+        data-size="xs"
+        data-variant="light"
+        style="--button-height: var(--button-height-xs); --button-padding-x: var(--button-padding-x-xs); --button-fz: var(--mantine-font-size-xs); --button-bg: var(--mantine-color-violet-light); --button-hover: var(--mantine-color-violet-light-hover); --button-color: var(--mantine-color-violet-light-color); --button-bd: calc(0.0625rem * var(--mantine-scale)) solid transparent;"
+        type="button"
+      >
+        <span
+          class="m-80f1301b mantine-Button-inner"
+        >
+          <span
+            class="m-811560b9 mantine-Button-label"
+          >
+            ADD TO CART
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Book renders book view unchanged 1`] = `
+<div>
+  <style
+    data-mantine-styles="true"
+  >
+    :root{--mantine-font-family: fontFamily;--mantine-font-family-headings: fontFamily;--mantine-primary-color-filled: var(--mantine-color-teal-filled);--mantine-primary-color-filled-hover: var(--mantine-color-teal-filled-hover);--mantine-primary-color-light: var(--mantine-color-teal-light);--mantine-primary-color-light-hover: var(--mantine-color-teal-light-hover);--mantine-primary-color-light-color: var(--mantine-color-teal-light-color);}:root[data-mantine-color-scheme="dark"]{--mantine-color-anchor: #38d9a9;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(44, 46, 51, 0.15);--mantine-color-dark-light-hover: rgba(44, 46, 51, 0.2);--mantine-color-dark-light-color: #909296;--mantine-color-dark-outline: #5c5f66;--mantine-color-dark-outline-hover: rgba(92, 95, 102, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(173, 181, 189, 0.15);--mantine-color-gray-light-hover: rgba(173, 181, 189, 0.2);--mantine-color-gray-light-color: #e9ecef;--mantine-color-gray-outline: #dee2e6;--mantine-color-gray-outline-hover: rgba(222, 226, 230, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(255, 107, 107, 0.15);--mantine-color-red-light-hover: rgba(255, 107, 107, 0.2);--mantine-color-red-light-color: #ffc9c9;--mantine-color-red-outline: #ffa8a8;--mantine-color-red-outline-hover: rgba(255, 168, 168, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(240, 101, 149, 0.15);--mantine-color-pink-light-hover: rgba(240, 101, 149, 0.2);--mantine-color-pink-light-color: #fcc2d7;--mantine-color-pink-outline: #faa2c1;--mantine-color-pink-outline-hover: rgba(250, 162, 193, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(204, 93, 232, 0.15);--mantine-color-grape-light-hover: rgba(204, 93, 232, 0.2);--mantine-color-grape-light-color: #eebefa;--mantine-color-grape-outline: #e599f7;--mantine-color-grape-outline-hover: rgba(229, 153, 247, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(132, 94, 247, 0.15);--mantine-color-violet-light-hover: rgba(132, 94, 247, 0.2);--mantine-color-violet-light-color: #d0bfff;--mantine-color-violet-outline: #b197fc;--mantine-color-violet-outline-hover: rgba(177, 151, 252, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(92, 124, 250, 0.15);--mantine-color-indigo-light-hover: rgba(92, 124, 250, 0.2);--mantine-color-indigo-light-color: #bac8ff;--mantine-color-indigo-outline: #91a7ff;--mantine-color-indigo-outline-hover: rgba(145, 167, 255, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(51, 154, 240, 0.15);--mantine-color-blue-light-hover: rgba(51, 154, 240, 0.2);--mantine-color-blue-light-color: #a5d8ff;--mantine-color-blue-outline: #74c0fc;--mantine-color-blue-outline-hover: rgba(116, 192, 252, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(34, 184, 207, 0.15);--mantine-color-cyan-light-hover: rgba(34, 184, 207, 0.2);--mantine-color-cyan-light-color: #99e9f2;--mantine-color-cyan-outline: #66d9e8;--mantine-color-cyan-outline-hover: rgba(102, 217, 232, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(32, 201, 151, 0.15);--mantine-color-teal-light-hover: rgba(32, 201, 151, 0.2);--mantine-color-teal-light-color: #96f2d7;--mantine-color-teal-outline: #63e6be;--mantine-color-teal-outline-hover: rgba(99, 230, 190, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(81, 207, 102, 0.15);--mantine-color-green-light-hover: rgba(81, 207, 102, 0.2);--mantine-color-green-light-color: #b2f2bb;--mantine-color-green-outline: #8ce99a;--mantine-color-green-outline-hover: rgba(140, 233, 154, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(148, 216, 45, 0.15);--mantine-color-lime-light-hover: rgba(148, 216, 45, 0.2);--mantine-color-lime-light-color: #d8f5a2;--mantine-color-lime-outline: #c0eb75;--mantine-color-lime-outline-hover: rgba(192, 235, 117, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(252, 196, 25, 0.15);--mantine-color-yellow-light-hover: rgba(252, 196, 25, 0.2);--mantine-color-yellow-light-color: #ffec99;--mantine-color-yellow-outline: #ffe066;--mantine-color-yellow-outline-hover: rgba(255, 224, 102, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(255, 146, 43, 0.15);--mantine-color-orange-light-hover: rgba(255, 146, 43, 0.2);--mantine-color-orange-light-color: #ffd8a8;--mantine-color-orange-outline: #ffc078;--mantine-color-orange-outline-hover: rgba(255, 192, 120, 0.05);}:root[data-mantine-color-scheme="light"]{--mantine-color-anchor: #0ca678;--mantine-color-dark-filled: #1A1B1E;--mantine-color-dark-filled-hover: #141517;--mantine-color-dark-light: rgba(26, 27, 30, 0.1);--mantine-color-dark-light-hover: rgba(26, 27, 30, 0.12);--mantine-color-dark-light-color: #1A1B1E;--mantine-color-dark-outline: #1A1B1E;--mantine-color-dark-outline-hover: rgba(26, 27, 30, 0.05);--mantine-color-gray-filled: #495057;--mantine-color-gray-filled-hover: #343a40;--mantine-color-gray-light: rgba(73, 80, 87, 0.1);--mantine-color-gray-light-hover: rgba(73, 80, 87, 0.12);--mantine-color-gray-light-color: #495057;--mantine-color-gray-outline: #495057;--mantine-color-gray-outline-hover: rgba(73, 80, 87, 0.05);--mantine-color-red-filled: #f03e3e;--mantine-color-red-filled-hover: #e03131;--mantine-color-red-light: rgba(240, 62, 62, 0.1);--mantine-color-red-light-hover: rgba(240, 62, 62, 0.12);--mantine-color-red-light-color: #f03e3e;--mantine-color-red-outline: #f03e3e;--mantine-color-red-outline-hover: rgba(240, 62, 62, 0.05);--mantine-color-pink-filled: #d6336c;--mantine-color-pink-filled-hover: #c2255c;--mantine-color-pink-light: rgba(214, 51, 108, 0.1);--mantine-color-pink-light-hover: rgba(214, 51, 108, 0.12);--mantine-color-pink-light-color: #d6336c;--mantine-color-pink-outline: #d6336c;--mantine-color-pink-outline-hover: rgba(214, 51, 108, 0.05);--mantine-color-grape-filled: #ae3ec9;--mantine-color-grape-filled-hover: #9c36b5;--mantine-color-grape-light: rgba(174, 62, 201, 0.1);--mantine-color-grape-light-hover: rgba(174, 62, 201, 0.12);--mantine-color-grape-light-color: #ae3ec9;--mantine-color-grape-outline: #ae3ec9;--mantine-color-grape-outline-hover: rgba(174, 62, 201, 0.05);--mantine-color-violet-filled: #7048e8;--mantine-color-violet-filled-hover: #6741d9;--mantine-color-violet-light: rgba(112, 72, 232, 0.1);--mantine-color-violet-light-hover: rgba(112, 72, 232, 0.12);--mantine-color-violet-light-color: #7048e8;--mantine-color-violet-outline: #7048e8;--mantine-color-violet-outline-hover: rgba(112, 72, 232, 0.05);--mantine-color-indigo-filled: #4263eb;--mantine-color-indigo-filled-hover: #3b5bdb;--mantine-color-indigo-light: rgba(66, 99, 235, 0.1);--mantine-color-indigo-light-hover: rgba(66, 99, 235, 0.12);--mantine-color-indigo-light-color: #4263eb;--mantine-color-indigo-outline: #4263eb;--mantine-color-indigo-outline-hover: rgba(66, 99, 235, 0.05);--mantine-color-blue-filled: #1c7ed6;--mantine-color-blue-filled-hover: #1971c2;--mantine-color-blue-light: rgba(28, 126, 214, 0.1);--mantine-color-blue-light-hover: rgba(28, 126, 214, 0.12);--mantine-color-blue-light-color: #1c7ed6;--mantine-color-blue-outline: #1c7ed6;--mantine-color-blue-outline-hover: rgba(28, 126, 214, 0.05);--mantine-color-cyan-filled: #1098ad;--mantine-color-cyan-filled-hover: #0c8599;--mantine-color-cyan-light: rgba(16, 152, 173, 0.1);--mantine-color-cyan-light-hover: rgba(16, 152, 173, 0.12);--mantine-color-cyan-light-color: #1098ad;--mantine-color-cyan-outline: #1098ad;--mantine-color-cyan-outline-hover: rgba(16, 152, 173, 0.05);--mantine-color-teal-filled: #0ca678;--mantine-color-teal-filled-hover: #099268;--mantine-color-teal-light: rgba(12, 166, 120, 0.1);--mantine-color-teal-light-hover: rgba(12, 166, 120, 0.12);--mantine-color-teal-light-color: #0ca678;--mantine-color-teal-outline: #0ca678;--mantine-color-teal-outline-hover: rgba(12, 166, 120, 0.05);--mantine-color-green-filled: #37b24d;--mantine-color-green-filled-hover: #2f9e44;--mantine-color-green-light: rgba(55, 178, 77, 0.1);--mantine-color-green-light-hover: rgba(55, 178, 77, 0.12);--mantine-color-green-light-color: #37b24d;--mantine-color-green-outline: #37b24d;--mantine-color-green-outline-hover: rgba(55, 178, 77, 0.05);--mantine-color-lime-filled: #74b816;--mantine-color-lime-filled-hover: #66a80f;--mantine-color-lime-light: rgba(116, 184, 22, 0.1);--mantine-color-lime-light-hover: rgba(116, 184, 22, 0.12);--mantine-color-lime-light-color: #74b816;--mantine-color-lime-outline: #74b816;--mantine-color-lime-outline-hover: rgba(116, 184, 22, 0.05);--mantine-color-yellow-filled: #f59f00;--mantine-color-yellow-filled-hover: #f08c00;--mantine-color-yellow-light: rgba(245, 159, 0, 0.1);--mantine-color-yellow-light-hover: rgba(245, 159, 0, 0.12);--mantine-color-yellow-light-color: #f59f00;--mantine-color-yellow-outline: #f59f00;--mantine-color-yellow-outline-hover: rgba(245, 159, 0, 0.05);--mantine-color-orange-filled: #f76707;--mantine-color-orange-filled-hover: #e8590c;--mantine-color-orange-light: rgba(247, 103, 7, 0.1);--mantine-color-orange-light-hover: rgba(247, 103, 7, 0.12);--mantine-color-orange-light-color: #f76707;--mantine-color-orange-outline: #f76707;--mantine-color-orange-outline-hover: rgba(247, 103, 7, 0.05);}
+  </style>
+  <style
+    data-mantine-styles="classes"
+  >
+    @media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}
+  </style>
+</div>
+`;

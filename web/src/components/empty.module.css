@@ -1,0 +1,7 @@
+.empty {
+  color: var(--mantine-color-gray-6);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

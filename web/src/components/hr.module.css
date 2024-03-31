@@ -1,0 +1,7 @@
+.hr {
+  width: 100%;
+  height: 0;
+  margin: 0;
+  border-style: none;
+  border-top: 0.0625rem solid var(--mantine-color-gray-4);
+}

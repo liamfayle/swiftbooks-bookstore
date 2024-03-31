@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  gap: 1.25rem;
+  padding: 0;
+  border-radius: 0;
+  overflow: visible;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.total {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button {
+  width: 100%;
+}

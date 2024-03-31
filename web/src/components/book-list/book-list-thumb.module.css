@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  min-height: 9.375rem;
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.image {
+  display: block;
+  border: 1px solid var(--mantine-color-gray-2);
+  object-fit: contain;
+}
+
+.imageSmall {
+  width: 4.6875rem;
+  height: 4.6875rem;
+  border-left: 0;
+  flex-grow: 1;
+}
+
+.imageSmall:nth-child(2) {
+  border-top: 0;
+}
+
+.imageLarge {
+  width: 9.375rem;
+  height: 9.375rem;
+}

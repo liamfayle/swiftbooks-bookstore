@@ -1,0 +1,12 @@
+.link {
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.container {
+  max-width: 48rem;
+}

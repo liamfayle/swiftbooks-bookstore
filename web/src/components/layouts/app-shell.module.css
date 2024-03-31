@@ -1,0 +1,90 @@
+.header {
+  padding: 0.625rem 1.25rem;
+  width: 100%;
+}
+
+.headerInner {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.container {
+  padding: 1.25rem;
+}
+
+.headerBranding {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  position: absolute;
+  left: 0;
+}
+
+.headerActions {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 0.75rem;
+  position: absolute;
+  right: 0;
+}
+
+.headerAction,
+.headerAction svg {
+  width: 2rem;
+  height: 2rem;
+  min-width: 2rem;
+  min-height: 2rem;
+}
+
+.mobileLogo {
+  display: block;
+}
+
+.desktopLogo,
+.headerTitle,
+.links {
+  display: none;
+}
+
+.headerTitle {
+  margin-left: 1.25rem;
+}
+
+@media (min-width: $mantine-breakpoint-sm) {
+  .headerActions {
+    gap: 1.25rem;
+  }
+
+  .mobileLogo {
+    display: none;
+  }
+
+  .desktopLogo,
+  .headerTitle {
+    display: block;
+  }
+
+  .links {
+    display: flex;
+  }
+
+  .headerAction,
+  .headerAction svg {
+    width: 2.5rem;
+    height: 2.5rem;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+  }
+
+  .container {
+    padding: 3.75rem;
+  }
+}

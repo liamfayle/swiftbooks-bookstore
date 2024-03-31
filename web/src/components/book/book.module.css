@@ -1,0 +1,63 @@
+.image {
+  width: 9.375rem;
+  height: 9.375rem;
+  object-fit: contain;
+  display: block;
+  border: 1px solid var(--mantine-color-gray-2);
+}
+
+.author {
+  color: var(--mantine-color-gray-6);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0.25rem;
+}
+
+.price {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.44rem;
+}
+
+.button {
+  margin-top: 0.44rem;
+}
+
+.container {
+  display: flex;
+  max-width: 24rem;
+  width: 24rem;
+  gap: 1.25rem;
+}
+
+.details {
+  flex-grow: 1;
+}
+
+.quantityContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.44rem;
+  margin-bottom: 0.44rem;
+}
+
+.quantitySelect {
+  max-width: 4rem;
+}
+
+.quantityContainer .price {
+  margin-top: 0;
+  margin-bottom: 0;
+}

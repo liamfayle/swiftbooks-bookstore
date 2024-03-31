@@ -1,0 +1,11 @@
+.breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.38rem;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.25rem;
+  text-transform: uppercase;
+}

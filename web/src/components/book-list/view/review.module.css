@@ -1,0 +1,54 @@
+.headerContainer {
+  display: flex;
+}
+
+.creator {
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-right: 1.06rem;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.date {
+  color: var(--mantine-color-gray-6);
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.content {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0.76rem;
+}
+
+.tooltip {
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.hideContainer {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  align-items: end;
+  margin-top: 0.76rem;
+}
+
+.hide {
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  gap: 0.125rem;
+}

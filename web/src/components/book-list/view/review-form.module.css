@@ -1,0 +1,21 @@
+.container {
+  overflow: visible;
+}
+
+.createRowContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 2.5rem;
+  margin-top: 1.25rem;
+}
+
+.createRowContainer > .createButton {
+  flex-grow: 1;
+}
+
+.ratingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+}
